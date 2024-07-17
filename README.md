@@ -4,8 +4,8 @@
 
 # Project Steps
 
-# Get data from Kaggle
-# Clean the data and get it ready for machine learning using pandas.
+Get data from Kaggle
+Clean the data and get it ready for machine learning using pandas.
 # Make predictions about who will win a match using random forest
 # Measure error and improve our predictions.
 # Code
