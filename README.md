@@ -1,2 +1,2 @@
 # Data-Science
-# source code utilizing decision trees, random foret, and tensorflow
+# source code utilizing Random Forest classifer and regressor 
