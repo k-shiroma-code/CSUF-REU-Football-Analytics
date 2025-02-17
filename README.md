@@ -4,7 +4,7 @@ In this project, we'll predict the winner of football matches in the Euros (Euro
 # Project Steps
 Get data from Kaggle
 Clean the data and get it ready for machine learning using pandas.
-Make predictions about who will win a match using random forest
+Make predictions about who will win a match using random forest.
 Measure error and improve our predictions.
 Code
 You can find the code for this project here.
