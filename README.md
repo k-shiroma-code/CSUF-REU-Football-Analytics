@@ -1,25 +1,37 @@
-# Project Overview
-In this project, we'll predict the winner of football matches in the Euros (European Championship)
+UEFA Football Match Outcome Prediction
+Project Overview
+This project predicts the outcomes of European Championship (Euros) football matches using historical match data. The goal is to classify each match result as a home win, draw, or away win.
 
-# Project Steps
-Get data from Kaggle
-Clean the data and get it ready for machine learning using pandas.
-Make predictions about who will win a match using decision trees, random forest and tested neural networks.
-Measure error and improve our predictions.
+Project Workflow
+Data Acquisition & Cleaning: Processed match data and prepared features including dynamic team Elo ratings.
+
+Modeling: Built Logistic Regression and XGBoost classifiers to predict match outcomes.
+
+Evaluation: Measured performance with classification reports and confusion matrices.
+
 Code
-You can find the code for this project here.
+All processing and modeling are included in the EurosPrediction.ipynb Jupyter Notebook.
 
-# File overview:
-Contains the matches csv and the code for the models
+File Overview
+results.csv: Contains model predictions and evaluation results.
 
-JupyerLab
-Python 3.8+
-Python packages
-Python packages
+EurosPrediction.ipynb: Jupyter Notebook with all code for data processing, feature engineering, modeling, and evaluation.
+
+Environment & Dependencies
+Platform: JupyterLab
+
+Python version: 3.8+
+
+Required packages:
+
 pandas
-requests
 
-# Data
-Kaggle dataset
-https://www.kaggle.com/datasets/piterfm/football-soccer-uefa-euro-1960-2024](https://www.kaggle.com/datasets/martj42/international-football-results-from-1872-to-2017)
+numpy
 
+scikit-learn
+
+xgboost
+
+matplotlib
+
+seaborn
