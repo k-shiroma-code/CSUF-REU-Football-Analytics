@@ -1,6 +1,9 @@
-# UEFA Football Match Outcome Prediction
+# 🏆 UEFA Football Match Outcome Prediction
 
 This project predicts the outcomes of UEFA European Championship (Euros) football matches using historical match data. The goal is to classify each match result as a **home win**, **draw**, or **away win**.
+
+In addition to Logistic Regression and XGBoost, I also experimented with Decision Trees, Random Forests, and a Neural Network built with TensorFlow/Keras.  
+> **Note:** Due to file corruption during upload, the full implementations of these additional models were not preserved in the current version of the repository.
 
 ---
 
