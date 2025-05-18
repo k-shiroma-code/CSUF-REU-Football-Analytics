@@ -11,7 +11,7 @@ Engineered features including dynamic team Elo ratings
 Trained and evaluated two classification models:
 
 Logistic Regression
-
+`````````````````````````  
 XGBoost Classifier
 
 3. Evaluation
