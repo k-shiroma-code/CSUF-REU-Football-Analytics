@@ -1,29 +1,47 @@
-UEFA Football Match Outcome Prediction
-Project Overview
-This project predicts the outcomes of European Championship (Euros) football matches using historical match data. The goal is to classify each match result as a home win, draw, or away win.
+⚽ UEFA Football Match Outcome Prediction
+This project predicts the outcomes of UEFA European Championship (Euros) football matches using historical match data. The goal is to classify each match result as a home win, draw, or away win.
 
-Project Workflow
-Data Acquisition & Cleaning: Processed match data and prepared features including dynamic team Elo ratings.
+🔄 #Project Workflow
+1. #Data Acquisition & Cleaning
+Collected and preprocessed historical match data
 
-Modeling: Built Logistic Regression and XGBoost classifiers to predict match outcomes.
+Engineered features including dynamic team Elo ratings
 
-Evaluation: Measured performance with classification reports and confusion matrices.
+2. #Modeling
+Trained and evaluated two classification models:
 
-Code
-All processing and modeling are included in the EurosPrediction.ipynb Jupyter Notebook.
+Logistic Regression
 
-File Overview
-results.csv: Contains model predictions and evaluation results.
+XGBoost Classifier
 
-EurosPrediction.ipynb: Jupyter Notebook with all code for data processing, feature engineering, modeling, and evaluation.
+3. #Evaluation
+Assessed performance using:
 
-Environment & Dependencies
-Platform: JupyterLab
+Classification reports
 
-Python version: 3.8+
+Confusion matrices
 
-Required packages:
+📁 #File Overview
+EurosPrediction.ipynb:
+Contains all code for:
 
+Data processing
+
+Feature engineering
+
+Modeling and evaluation
+
+results.csv:
+Includes model predictions and performance metrics
+
+⚙️ #Environment & Dependencies
+Platform
+JupyterLab
+
+Python Version
+3.8+
+
+Required Packages
 pandas
 
 numpy
