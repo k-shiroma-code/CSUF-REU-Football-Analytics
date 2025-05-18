@@ -14,7 +14,10 @@ This project predicts the outcomes of UEFA European Championship (Euros) footbal
 - Trained and evaluated two classification models:
   - **Logistic Regression**
   - **XGBoost Classifier**
-  - **Experimented with Decision Trees, Random Forest Classifier, Neural Network (TensorFlow/Keras)
+- Experimented with:
+  - **Decision Trees**
+  - **Random Forest Classifier**
+  - **Neural Network (TensorFlow/Keras)**
 
 ### 3. Evaluation
 - Assessed performance using:
