@@ -1,4 +1,4 @@
-# 🏆 UEFA Football Match Outcome Prediction
+# UEFA Football Match Outcome Prediction
 
 This project predicts the outcomes of UEFA European Championship (Euros) football matches using historical match data. The goal is to classify each match result as a **home win**, **draw**, or **away win**.
 
@@ -7,7 +7,7 @@ In addition to Logistic Regression and XGBoost, I also experimented with Decisio
 
 ---
 
-## 📊 Project Workflow
+## Project Workflow
 
 ### 1. Data Acquisition & Cleaning
 - Collected and preprocessed historical match data  
@@ -36,14 +36,14 @@ In addition to Logistic Regression and XGBoost, I also experimented with Decisio
   - Data processing  
   - Feature engineering  
   - Model training and evaluation  
-  📌 _To understand and run the project, please refer to this notebook._
+   _To understand and run the project, please refer to this notebook._
 
 - **`results.csv`**  
   Includes model predictions and performance metrics
 
 ---
 
-## ⚙️ Environment & Dependencies
+## Environment & Dependencies
 
 ### Platform
 - JupyterLab
