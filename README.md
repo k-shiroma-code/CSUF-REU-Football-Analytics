@@ -1,6 +1,6 @@
 # UEFA Football Match Outcome Prediction
 
-As a communty college student, I was fortunate enough to find a resaerch opportunity at California State University, Fullerton and do volunteer resaerch in data science. As I was brainstorming ideas for projects, the Euros were just starting. I used this opportunity to tackle on a resaerch project on predictive modeling and finding out how it I can find the winner. 
+As a communty college student, I was fortunate enough to find a resaerch opportunity at California State University, Fullerton and do volunteer resaerch in data science. As I was brainstorming ideas for projects, the Euros were just starting. I used this opportunity to tackle on a resaerch project on predictive modeling. 
 
 This project predicts the outcomes of UEFA European Championship (Euros) football matches using historical match data. The goal is to classify each match result as a **home win**, **draw**, or **away win**.
 
