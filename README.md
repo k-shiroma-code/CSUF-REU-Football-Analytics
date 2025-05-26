@@ -38,9 +38,6 @@ In addition to Logistic Regression and XGBoost, I experimented with Decision Tre
   Contains the full implementation, including:
   - Data processing  
   - Feature engineering  
-  - Model training and evaluation  
-
-- **`results.csv`**  
-  Includes model predictions and performance metrics  
+  - Model training and evaluation   
 
 ---
