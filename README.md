@@ -44,16 +44,3 @@ In addition to Logistic Regression and XGBoost, I experimented with Decision Tre
   Includes model predictions and performance metrics  
 
 ---
-
-## Environment & Dependencies
-
-### Platform
-- JupyterLab  
-
-### Python Version
-- 3.8+  
-
-### Required Packages
-
-```bash
-pip install pandas numpy scikit-learn xgboost matplotlib seaborn
