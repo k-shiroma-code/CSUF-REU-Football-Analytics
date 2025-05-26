@@ -1,10 +1,11 @@
 # UEFA Football Match Outcome Prediction
 
-As a communty college student, I was fortunate enough to find a resaerch opportunity at California State University, Fullerton and do volunteer resaerch in data science. As I was brainstorming ideas for projects, the Euros were just starting. I used this opportunity to tackle on a resaerch project on predictive modeling. 
+As a community college student, I was fortunate to find a research opportunity at California State University, Fullerton, where I volunteered in a data science project. As I brainstormed ideas, the UEFA European Championship (Euros) had just begun, providing a perfect opportunity to explore predictive modeling.
 
-This project predicts the outcomes of UEFA European Championship (Euros) football matches using historical match data. The goal is to classify each match result as a **home win**, **draw**, or **away win**.
+This project aims to predict the outcomes of Euros football matches using historical data. The goal is to classify match results as **home win**, **draw**, or **away win**.
 
-In addition to Logistic Regression and XGBoost, I also experimented with Decision Trees, Random Forests, and a Neural Network built with TensorFlow/Keras.  
+In addition to Logistic Regression and XGBoost, I experimented with Decision Trees, Random Forests, and a Neural Network built with TensorFlow/Keras.  
+
 > **Note:** Due to file corruption during upload, the full implementations of these additional models were not preserved in the current version of the repository.
 
 ---
@@ -13,59 +14,46 @@ In addition to Logistic Regression and XGBoost, I also experimented with Decisio
 
 ### 1. Data Acquisition & Cleaning
 - Collected and preprocessed historical match data  
-- Engineered features including dynamic team Elo ratings
+- Engineered features, including dynamic team Elo ratings  
 
 ### 2. Modeling
-- Trained and evaluated two classification models:
+- Trained and evaluated classification models:
   - **Logistic Regression**
   - **XGBoost Classifier**
-- Experimented with:
+- Additional experiments:
   - **Decision Trees**
   - **Random Forest Classifier**
-  - **Neural Network (TensorFlow/Keras)**
+  - **Neural Network (TensorFlow/Keras)**  
 
 ### 3. Evaluation
-- Assessed performance using:
-  - Classification reports
-  - Confusion matrices
+- Assessed model performance using:
+  - Classification reports  
+  - Confusion matrices  
 
 ---
 
-## 📁 File Overview
+## File Overview
 
 - **`EurosPrediction.ipynb`**  
-  Contains all code for:
+  Contains the full implementation, including:
   - Data processing  
   - Feature engineering  
   - Model training and evaluation  
-   _To understand and run the project, please refer to this notebook._
 
 - **`results.csv`**  
-  Includes model predictions and performance metrics
+  Includes model predictions and performance metrics  
 
 ---
 
 ## Environment & Dependencies
 
 ### Platform
-- JupyterLab
+- JupyterLab  
 
 ### Python Version
-- 3.8+
+- 3.8+  
 
 ### Required Packages
-- `pandas`  
-- `numpy`  
-- `scikit-learn`  
-- `xgboost`  
-- `matplotlib`  
-- `seaborn`
 
----
-
-## ✅ How to Use
-
-1. Clone the repository.
-2. Open `EurosPrediction.ipynb` in JupyterLab.
-3. Run the notebook to explore the data, train models, and view predictions and evaluations.
-
+```bash
+pip install pandas numpy scikit-learn xgboost matplotlib seaborn
