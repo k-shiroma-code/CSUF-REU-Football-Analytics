@@ -2,7 +2,7 @@
 
 This project explores predictive modeling for football (soccer) match outcomes in the **UEFA European Championship (Euros)**. The goal was to classify match results as **home win, draw, or away win** using historical match data and machine learning techniques.  
 
-As a community college student, I was fortunate to find a research opportunity at **California State University, Fullerton**, where I volunteered in a data science project. Since the Euros had just begun, it provided a perfect real-world context to test predictive models.  
+I was fortunate to find a research opportunity at **California State University, Fullerton**, where I volunteered in a data science project. Since the Euros had just begun, it provided a perfect real-world context to test predictive models.  
 
 ---
 
