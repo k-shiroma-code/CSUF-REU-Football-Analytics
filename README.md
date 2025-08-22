@@ -1,50 +1,83 @@
-# UEFA Football Match Outcome Prediction
+# ⚽ UEFA Football Match Outcome Prediction  
 
-As a community college student, I was fortunate to find a research opportunity at California State University, Fullerton, where I volunteered in a data science project. As I brainstormed ideas, the UEFA European Championship (Euros) had just begun, providing a perfect opportunity to explore predictive modeling.
+This project explores predictive modeling for football (soccer) match outcomes in the **UEFA European Championship (Euros)**. The goal was to classify match results as **home win, draw, or away win** using historical match data and machine learning techniques.  
 
-This project aims to predict the outcomes of Euros football matches using historical data. The goal is to classify match results as **home win**, **draw**, or **away win**.
-
-In addition to Logistic Regression and XGBoost, I experimented with Decision Trees, Random Forests, and a Neural Network built with TensorFlow/Keras.  
-
-> **Note:** Due to file corruption during upload, the full implementations of these additional models were not preserved in the current version of the repository.
+As a community college student, I was fortunate to find a research opportunity at **California State University, Fullerton**, where I volunteered in a data science project. Since the Euros had just begun, it provided a perfect real-world context to test predictive models.  
 
 ---
 
-## Project Workflow
+## 🔍 Project Overview  
 
-### 1. Data Acquisition & Cleaning
-- Collected and preprocessed historical match data  
-- Engineered features, including dynamic team Elo ratings  
+### Objectives  
+- Predict match outcomes (home win, draw, away win).  
+- Compare the performance of different classification algorithms.  
+- Analyze which features are most predictive of football results.  
 
-### 2. Modeling
-- Trained and evaluated classification models:
-  - **Logistic Regression**
-  - **XGBoost Classifier**
-- Additional experiments:
-  - **Decision Trees**
-  - **Random Forest Classifier**
-  - **Neural Network (TensorFlow/Keras)**  
+### Models Explored  
+- Logistic Regression  
+- XGBoost Classifier  
+- Decision Trees *(experiment)*  
+- Random Forest Classifier *(experiment)*  
+- Neural Network (TensorFlow/Keras, experiment)*  
 
-### 3. Evaluation
-- Assessed model performance using:
-  - Classification reports  
-  - Confusion matrices  
+> ⚠️ Note: Due to file corruption during upload, the full implementations of Decision Trees, Random Forest, and Neural Network are not preserved in the current version of the repository.  
 
 ---
 
-## File Overview
+## 📊 Project Workflow  
 
-- **`EurosPrediction.ipynb`**  
-  Contains the full implementation, including:
+1. **Data Acquisition & Cleaning**  
+   - Collected and preprocessed historical UEFA match data (~10,000 matches).  
+   - Filtered down to ~5,900 curated matches for more reliable accuracy.  
+   - Engineered features, including:  
+     - Dynamic Elo ratings (team strength)  
+     - Elo difference (`home_elo - away_elo`)  
+     - Neutral venue indicator  
+
+2. **Modeling**  
+   - Trained and evaluated models using scikit-learn and XGBoost.  
+   - Compared results across algorithms.  
+
+3. **Evaluation**  
+   - Generated **classification reports** (precision, recall, F1-score).  
+   - Visualized **confusion matrices** to assess predictions.  
+   - Analyzed **feature importances** to interpret model behavior.  
+
+---
+
+## 📂 Repository Structure  
+
+- **`EurosPrediction.ipynb`** – Main notebook with full implementation:  
   - Data processing  
   - Feature engineering  
-  - Model training and evaluation   
+  - Model training and evaluation  
+  - Visualization of results  
 
-data/ (not included due to size restrictions)
+- **`data/`** *(not included in repo due to size restrictions)*  
+  - Contains raw historical UEFA match data.  
 
-Historical UEFA match data (over 10,000 matches; final model trained on ~5,900 curated games for higher accuracy).
+- **`outputs/`**  
+  - Plots such as feature importance and confusion matrices.  
 
-outputs/
-
-Saved figures such as feature importance plots and confusion matrices.
 ---
+
+## 📈 Key Insights  
+
+- **Elo Difference** was the single most important feature in predicting outcomes.  
+- The model predicted **home wins** reliably and **away wins** moderately well.  
+- **Draws were poorly predicted**, highlighting the difficulty of modeling rare outcomes in football.  
+- Final XGBoost model achieved improved accuracy on ~5,900 curated matches compared to the full 10,000-match dataset.  
+
+---
+
+## 🚀 Next Steps  
+
+- Improve handling of **class imbalance** (draws) with resampling or class weights.  
+- Incorporate additional contextual features (tournament stage, recent form).  
+- Deploy as an interactive app (e.g., with Streamlit or Flask).  
+
+---
+
+## 🏅 Acknowledgment  
+
+This project was developed during my volunteer research experience in a **Data Science Internship at California State University, Fullerton**.  
