@@ -40,4 +40,11 @@ In addition to Logistic Regression and XGBoost, I experimented with Decision Tre
   - Feature engineering  
   - Model training and evaluation   
 
+data/ (not included due to size restrictions)
+
+Historical UEFA match data (over 10,000 matches; final model trained on ~5,900 curated games for higher accuracy).
+
+outputs/
+
+Saved figures such as feature importance plots and confusion matrices.
 ---
