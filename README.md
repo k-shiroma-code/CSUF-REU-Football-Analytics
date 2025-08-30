@@ -6,7 +6,7 @@ I was fortunate to find a research opportunity at **California State University,
 
 ---
 
-## 🔍 Project Overview  
+## Project Overview  
 
 ### Objectives  
 - Predict match outcomes (home win, draw, away win).  
@@ -20,11 +20,11 @@ I was fortunate to find a research opportunity at **California State University,
 - Random Forest Classifier *(experiment)*  
 - Neural Network (TensorFlow/Keras, experiment)*  
 
-> ⚠️ Note: Due to file corruption during upload, the full implementations of Decision Trees, Random Forest, and Neural Network are not preserved in the current version of the repository.  
+> Note: Due to file corruption during upload, the full implementations of Decision Trees, Random Forest, and Neural Network are not preserved in the current version of the repository.  
 
 ---
 
-## 📊 Project Workflow  
+## Project Workflow  
 
 1. **Data Acquisition & Cleaning**  
    - Collected and preprocessed historical UEFA match data (~10,000 matches).  
@@ -45,7 +45,7 @@ I was fortunate to find a research opportunity at **California State University,
 
 ---
 
-## 📂 Repository Structure  
+## Repository Structure  
 
 - **`EurosPrediction.ipynb`** – Main notebook with full implementation:  
   - Data processing  
@@ -61,7 +61,7 @@ I was fortunate to find a research opportunity at **California State University,
 
 ---
 
-## 📈 Key Insights  
+## Key Insights  
 
 - **Elo Difference** was the single most important feature in predicting outcomes.  
 - The model predicted **home wins** reliably and **away wins** moderately well.  
@@ -70,14 +70,6 @@ I was fortunate to find a research opportunity at **California State University,
 
 ---
 
-## 🚀 Next Steps  
-
-- Improve handling of **class imbalance** (draws) with resampling or class weights.  
-- Incorporate additional contextual features (tournament stage, recent form).  
-- Deploy as an interactive app (e.g., with Streamlit or Flask).  
-
----
-
-## 🏅 Acknowledgment  
+## Acknowledgment  
 
 This project was developed during my volunteer research experience in a **Data Science Internship at California State University, Fullerton**.  
